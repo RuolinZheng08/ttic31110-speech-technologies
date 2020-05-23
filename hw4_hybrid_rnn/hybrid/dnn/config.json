@@ -1,0 +1,27 @@
+{
+    "seed" : 273,
+    "data" : {
+        "mfcc": "hybrid/data/mfccs/mfccs_multiple.npz",
+        "state_seq":  "hybrid/data/state_seq/state_seq.npz",
+        "context_size" : 20 
+    },
+
+    "optimizer" : {
+        "type": "Adam",
+        "batch_size" : 8,
+        "test_batch_size" : 16,
+        "max_epochs" : 10,
+        "learning_rate" : 1e-4,
+        "momentum" : 0.0
+    },
+
+    "model" : {
+        "hidden_dim": 512,
+        "n_layers": 1,
+        "dropout_probability": 0.0
+    },
+    "output": {
+        "temp_parameter": 1.0,
+        "save_dir" : "hybrid/dnn/checkpoints/"
+    }
+}
