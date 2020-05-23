@@ -7,4 +7,7 @@ ipython_config.py
 
 .DS_Store
 
-*.npz
+# *.npz
+
+checkpoints/
+__pycache__/
