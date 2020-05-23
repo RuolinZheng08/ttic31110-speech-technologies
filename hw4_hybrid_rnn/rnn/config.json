@@ -11,7 +11,7 @@
 
     "optimizer" : {
         "batch_size" : 10,
-        "max_epochs" : 30,
+        "max_epochs" : 20,
         "learning_rate" : 1,
         "momentum" : 0.0
     },

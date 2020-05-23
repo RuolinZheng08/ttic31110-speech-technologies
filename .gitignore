@@ -8,6 +8,7 @@ ipython_config.py
 .DS_Store
 
 # *.npz
+*.png
 
 checkpoints/
 __pycache__/
