@@ -12,3 +12,5 @@ ipython_config.py
 
 checkpoints/
 __pycache__/
+
+.idea
