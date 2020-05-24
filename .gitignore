@@ -9,8 +9,8 @@ ipython_config.py
 
 # *.npz
 *.png
+*.pkl
 
-checkpoints/
 __pycache__/
 
 .idea
